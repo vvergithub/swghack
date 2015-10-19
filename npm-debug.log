@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.3.9
+3 info using node@v4.2.1
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle svghack@1.0.0~prestart: svghack@1.0.0
+6 silly lifecycle svghack@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle svghack@1.0.0~start: svghack@1.0.0
+8 verbose lifecycle svghack@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle svghack@1.0.0~start: PATH: C:\Program Files (x86)\nodejs\node_modules\npm\bin\node-gyp-bin;C:\appl\svghack\node_modules\.bin;C:\Ruby193\bin;C:\Oracle\ora11\bin;C:\appl\dev\Sencha\bin\Sencha\Cmd\5.1.0.26;C:\Program Files (x86)\Windows Resource Kits\Tools\;C:\Oracle\ora11_32\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files (x86)\Microsoft Application Virtualization Client;C:\Program Files (x86)\Utils;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Subversion\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Calibre2\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Java\jre1.7.0_72\bin\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI\wbin;C:\Program Files\Java\jdk1.7.0_79;C:\Users\vver\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\nodejs\;C:\Users\vver\AppData\Roaming\npm
+10 verbose lifecycle svghack@1.0.0~start: CWD: C:\appl\svghack
+11 silly lifecycle svghack@1.0.0~start: Args: [ '/d /s /c', 'index.js' ]
+12 silly lifecycle svghack@1.0.0~start: Returned: code: 1  signal: null
+13 info lifecycle svghack@1.0.0~start: Failed to exec start script
+14 verbose stack Error: svghack@1.0.0 start: `index.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\lifecycle.js:233:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:818:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid svghack@1.0.0
+16 verbose cwd C:\appl\svghack
+17 error Windows_NT 6.1.7601
+18 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+19 error node v4.2.1
+20 error npm  v3.3.9
+21 error code ELIFECYCLE
+22 error svghack@1.0.0 start: `index.js`
+22 error Exit status 1
+23 error Failed at the svghack@1.0.0 start script 'index.js'.
+23 error This is most likely a problem with the svghack package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     index.js
+23 error You can get their info via:
+23 error     npm owner ls svghack
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
