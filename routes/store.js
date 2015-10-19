@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    res.render('store', { title: 'ExpressStore' });
+    res.render('store',{title: 'store',  messageURL : process.env.MESSAGE_URL});
 });
 
 router.route('/message').post(function(req, res, next) {

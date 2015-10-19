@@ -4,6 +4,6 @@ block content
   h1= 'Greetings from Express'
   p Hi there and welcome to #{title}
 
-  form(action="http://localhost:3000/store/message", method="post")
+  form(action="#{messageURL}", method="post")
     input(type="text", name="message", placeholder="Enter a message", size=40)
     input(type="submit", name="submit", value="Submit")
